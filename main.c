@@ -5,7 +5,7 @@ int main(void) {
     int i;
     double result;
     scanf("%d",&i);
-    result = 1/i+100;
-    print("%0.15f" , result);
+    result = 1/(i+100);
+    printf("%0.15f" , result);
     return 0;
 }
